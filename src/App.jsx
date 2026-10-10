@@ -11,22 +11,10 @@ import embreve from "./assets/IMG/emBreve.png";
 
 const projects = [
   {
-    title: "CAFETERIA",
-    description:
-      "Landing page moderna para cafeteria.",
-    tech: "HTML / CSS / JAVASCRIPT",
-    images: [
-      cafe1,
-      cafe2,
-      cafe3
-    ],
-    link: "#",
-  },
-  {
     title: "CONULTÓRIO ODONTOLÓGICO",
     description:
       "Aplicação web com interface interativa e responsiva.",
-    tech: "HTML / CSS / JAVASCRIPT",
+    tech: "HTML / CSS / JS",
     images: [
       dent1,
       dent2,
@@ -116,9 +104,9 @@ function ProjectCard({ project, number }) {
             {project.description}
           </p>
 
-          <a href={project.link} className="project-link">
+          {/* <a href={project.link} className="project-link">
             OPEN PROJECT <span>↗</span>
-          </a>
+          </a> */}
         </div>
       </div>
     </article>
@@ -499,10 +487,10 @@ function App() {
 
               
               <a
-                 href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellemelyssaprofissional@gmail.com&su=Contato%20pelo%20portf%C3%B3lio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="email-button"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellemelyssaprofissional@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="email-button"
               >
                 daniellemelyssaprofissional@gmail.com
                 <span>↗</span>
@@ -513,7 +501,7 @@ function App() {
                 <a
                   href="https://github.com/M5lyssa"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   GITHUB
                 </a>
