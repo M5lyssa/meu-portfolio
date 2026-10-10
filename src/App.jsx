@@ -284,14 +284,6 @@ function App() {
             ✦
           </div>
 
-          <a
-            href="#sobre"
-            className="scroll-y2k"
-          >
-            <span>SCROLL DOWN</span>
-            <b>↓</b>
-          </a>
-
         </section>
 
         {/* SOBRE */}
