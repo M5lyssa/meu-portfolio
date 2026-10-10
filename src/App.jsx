@@ -499,9 +499,9 @@ function App() {
 
               
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellemelyssaprofissional@gmail.com"
+                href="https://mailto.google.com/mail/?view=cm&fs=1&to=daniellemelyssaprofissional@gmail.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noreferrer"
                 className="email-button"
               >
                 daniellemelyssaprofissional@gmail.com
@@ -511,7 +511,7 @@ function App() {
               <div className="social-links">
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/M5lyssa"
                   target="_blank"
                   rel="noreferrer"
                 >
