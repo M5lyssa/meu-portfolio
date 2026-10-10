@@ -499,7 +499,7 @@ function App() {
 
               
               <a
-                href="https://mailto.google.com/mail/?view=cm&fs=1&to=daniellemelyssaprofissional@gmail.com"
+                href="mailto:daniellemelyssaprofissional@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="email-button"
