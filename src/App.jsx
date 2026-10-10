@@ -513,7 +513,7 @@ function App() {
                 <a
                   href="https://github.com/M5lyssa"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   GITHUB
                 </a>
